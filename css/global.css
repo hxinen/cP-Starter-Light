@@ -1,4 +1,3 @@
-
 /***************************** GLOBAL OVERIDE  *****************************/
 body,
 #cpanel_body {
@@ -10,7 +9,7 @@ body,
 a,
 .body-content a,
 .btn-link {
-	color: #ff6c2c;
+	color: #16bb65;
 }
 
 a:hover,
@@ -24,7 +23,7 @@ a:focus,
 input[type=file]:focus, 
 input[type=radio]:focus, 
 input[type=checkbox]:focus {
-	outline: 1px dotted #ff6c2c;
+	outline: 0px dotted #16bb65;
 }
 
 /* Validation Stuff */
@@ -42,10 +41,10 @@ div.cjt_status_bar_success,
 
 #content .btn-primary,
 .yui-dialog .btn-primary {
-	background: #FF6C2C;
-	border-color: #dd370a;
-	-webkit-box-shadow: inset 0 0px #dd370a;
-	box-shadow: inset 0 0px #dd370a;
+	background: #16bb65;
+	border-color: #16bb65;
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06),0 1px 10px 0 rgba(22, 187, 101, 0.26);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06),0 1px 10px 0 rgba(22, 187, 101, 0.26);
 	color: #fff;
 	border-width: 1px;
 }
@@ -56,9 +55,10 @@ div.cjt_status_bar_success,
 .btn-default[disabled]:active, 
 .btn-default[disabled].active,
 .btn-default,
+#content .btn-primary:hover,
 .button-group button {
-	-webkit-box-shadow: inset 0 0px #dd370a;
-	box-shadow: inset 0 0px #dd370a;
+	-webkit-box-shadow: inset 0 0px #16bb65;
+	box-shadow: inset 0 0px #16bb65;
 	border-width: 1px;
 }
 
@@ -74,15 +74,15 @@ div.cjt_status_bar_success,
 .yui-dialog .btn-primary:active, 
 .yui-dialog .btn-primary.active, 
 .yui-dialog .open .dropdown-toggle.btn-primary{
-	background: #dd370a;
+	background: #16bb65;
 	color: #fff;
 }
 
 .form-control:focus {
-  border-color: #FF6C2C;
+  border-color: #16bb65;
   outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,108,44,.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,108,44,.6);
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,108,44,.2);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(255,108,44,.2);
 }
 
 .dt_module {
@@ -164,7 +164,7 @@ footer .navbar-nav>li>a {
 
 footer .navbar-nav>li>a:hover {
 	background-color: transparent;
-	color: #FF6C2C;
+	color: #16bb65;
 	text-decoration: none;
 }
 
