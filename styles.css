@@ -4,9 +4,9 @@
  ****** Modified by hxinen *****
  *****************************/
  
-@import url("/styled/cP_Light/css/global.css");
-@import url("/styled/cP_Light/css/nav.css");
-@import url("/styled/cP_Light/css/content.css");
-@import url("/styled/cP_Light/css/custom.css");
-@import url("/styled/cP_Light/css/responsive.css");
+@import url("css/global.css");
+@import url("css/nav.css");
+@import url("css/content.css");
+@import url("css/custom.css");
+@import url("css/responsive.css");
 
