@@ -1,4 +1,4 @@
-#cP Starter Style - LIGHT
+#cP Style - LIGHT
 
 cP Starter is intended for you to modify the appearance of the cPanel interface and kickstart your own custom style. It is a professional, yet minimalistic approaches that can be used as is or adapted to match your company’s branding and logo. 
 
@@ -11,8 +11,8 @@ If you're looking for a DARK version, visit [cP Starter Dark](https://github.com
 A couple things before you start.  First, identify the type of role that best suits your needs in order to complete the installation. Secondly, cP Starter is compatible to **cPanel & WHM 56 or later**.   
 
 1. Download and extract the files
-
-2. Place the extracted files in a new folder called cP_Starter_Light and upload them in the following directory: 
+2. Rename cP-Starter-Light to anything you want, if you prefer since I've fixed the paths of the files.
+3. Place the extracted files in a new folder called cP_Starter_Light (or to anything you want) and upload them in the following directory: 
 *(Note: if the directory folders do not exist, create them in the right order)*
 
     - **Server**: 
@@ -24,7 +24,7 @@ A couple things before you start.  First, identify the type of role that best su
     - **cPanel User**: 
         + `/home/username/var/cpanel/styled/cP_Starter_Light/` *(Note: username - represents the cPanel account's username)*
 
-3. Generate custom icons via command line: 
+4. Generate custom icons via command line: 
 (Note: this is optional as it replaces existing icons)
 
     - **Both Server & Reseller**:
@@ -32,7 +32,7 @@ A couple things before you start.  First, identify the type of role that best su
         + Run the command line: 
             - `/usr/local/cpanel/bin/sprite_generator --theme paper_lantern --style cP_Starter_Light`
 
-4. Change your style interface:
+5. Change your style interface:
 
     - **Server**:
         + Log in to the server via SSH as the root user
